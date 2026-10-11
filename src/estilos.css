@@ -1,0 +1,33 @@
+/* Tamaño de imagenes para tarjetas */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Banners con carrusel */
+.carousel-item img {
+    height: 250px; 
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Resumen del carrito */
+#resumen-carrito {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos para lista desplegable de carrito */
+.list-group-item {
+    font-size: 0.9rem;
+} 
+
+/* Transición suave para tarjetas */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
